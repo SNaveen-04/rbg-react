@@ -1,0 +1,81 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+}
+.Top{
+    padding: 10px 15px;
+    text-align: center;
+}
+.Top h1{
+    font-size: 1.6em;
+    font-weight: lighter;
+}
+.Bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Bottom-content{
+    margin: 10px 0px;
+    text-align: center;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+    display: block;
+    margin: 0px auto  15px auto;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row1 div{
+    width: 40%;
+    padding: 0px 10px;
+}
+.row2{
+    text-align: center;
+}
+.SocialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.slogo{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+@media (max-width:600px){
+    .row1{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .row1 div{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .Bottom-content{
+        margin: 4px;
+    }
+    .logo{
+        height: 30px;
+        width: 40px;
+    }
+    .slogo{
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+    }
+}
