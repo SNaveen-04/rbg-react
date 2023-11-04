@@ -9,7 +9,7 @@ const Footer = ()=>{
         <div className="Bottom">
           <div className="Bottom-content row1">
             <div className="address">
-              <img src="../src/assets/rbg.png" className="logo" />
+              <img src="./images/rbg.png" className="logo" />
               RBG.AI,
               <br /> SREC SPARK Incubation Foundation,
               <br /> Sri Ramakrishna Engineering College,
