@@ -22,18 +22,18 @@ const Navbar = () =>{
         </div>
         <ul className={show ? "showmenu" : ""}>
           <li>
+            <NavLink className="link" to="/">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="link" to="/research">
+              Research
+            </NavLink>
+          </li>
+          <li>
             <NavLink className="link" to="/about">
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="link" to="/services">
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="link" to="/contact">
-              Contact
+              AboutUs
             </NavLink>
           </li>
         </ul>

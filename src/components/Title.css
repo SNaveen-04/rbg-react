@@ -1,0 +1,20 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Title-container{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+}
+.Title-container h2{
+    margin: 4px;
+    padding: 2px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+.Title-container h4{
+    margin: 4px ;
+    padding: 2px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
