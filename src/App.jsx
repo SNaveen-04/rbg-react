@@ -8,15 +8,16 @@ import { Routes, Route} from 'react-router-dom'
 const App = () => {
   return (
     <div className="App">
-    <Navbar />
-    <Title />
+      <Navbar />
+      <Title />
       <Routes>
-          <Route index element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="research" element={<Research />} />
+        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="rbg-react" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="research" element={<Research />} />
       </Routes>
-    <Footer />
+      <Footer />
     </div>
   );};
 
